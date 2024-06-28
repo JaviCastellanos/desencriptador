@@ -1,0 +1,27 @@
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Vocales</title>
+    <script src="desencriptador.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div>
+        <h2>Texto Original</h2>
+        <textarea id="inputText" rows="5" cols="50" placeholder="Escribe tu mensaje aquí"></textarea>
+    </div>
+    <div>
+        <h2>Texto Encriptado/Desencriptado</h2>
+        <textarea id="outputText" rows="5" cols="50" readonly></textarea>
+    </div>
+    <button class="blue-button" id="encriptarButton" onclick="encriptar()">Encriptar</button>
+    <button class="blue-button" id="desencriptarButton" onclick="desencriptar()">Desencriptar</button>
+    <button class="blue-button" onclick="borrarContenido()">Borrar</button>
+    <button class="blue-button" id="copyButton" onclick="copiarTexto()">Copiar</button>
+    <script src="desencriptador.js"></script>
+</body>
+
+</html>
